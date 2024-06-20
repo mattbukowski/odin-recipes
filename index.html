@@ -1,24 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Odin Recipes</title>
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="recipes/risotto.html" target="_blank" rel="noopener noreferrer"> Recipe for a risotto</a></li>
-            <li><a href="recipes/lasagne.html" target="_blank" rel="noopener noreferrer"> Recipe for a lasagne</a></li>
-            <li><a href="recipes/spaghetti.html" target="_blank" rel="noopener noreferrer"> Recipe for a spaghetti</a></li>
-        </ul>
-        <div>
-            <div class="subsection header">Latest Posts</div>
-            <p class="subsection" id="preview">
-              This is where a preview for a post might go.
-            </p>
-          </div>
-          
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="flex-container">
+            <div>
+                <a class="home" href="index.html"> Odin Recipes</a>
+            </div>
+            <div>
+                <a href="index.html"><img class="logo" src="recipes/recipes-images/odin-logo.jpeg"
+                        alt="Odin logo" /></a>
+            </div>
+            <div class="topnav">
+                <a class="nav" href="recipes/risotto.html"> Risotto</a>
+                <a class="nav" href="recipes/lasagne.html"> Lasagne</a></li>
+                <a class="nav" href="recipes/spaghetti.html"> Spaghetti</a>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="column">
+            <div class="flex-container-main">
+                <h2>Risotto</h2>
+                <img class="pic-home" src="recipes/recipes-images/risotto.jpeg" alt="Risotto" />
+            </div>
+        </div>
+        <div class="column">
+            <div class="flex-container-main">
+                <h2>Lasagne</h2>
+                <img class="pic-home" src="recipes/recipes-images/lasagne.jpeg" alt="Lasagne" />
+            </div>
+        </div>
+        <div class="column">
+            <div class="flex-container-main">
+                <h2>Spaghetti</h2>
+                <img class="pic-home" src="recipes/recipes-images/spaghetti.jpeg" alt="Spaghetti" />
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+
 </html>

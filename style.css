@@ -1,8 +1,120 @@
-.subsection.header {
-    color: red;
-  }
-  
-  .subsection#preview {
-    color: blue;
-  }
-  
+body {
+  padding: 0px 20px 0px 20px;
+  background: white;
+}
+
+/* styles for nav bar */
+
+.flex-container {
+  display: flex;
+  background-color: #e6e6e6;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  align-content: space-around;
+}
+
+.home {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  margin-left: 1.5em;
+}
+
+.nav {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: brown;
+  text-decoration: none;
+  margin-right: 1.5em;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.nav:hover {
+  color: black;
+}
+
+.home:hover {
+  color: brown;
+}
+
+/* styles for side pages */
+
+* {
+  box-sizing: border-box;
+}
+
+.grid-main {
+  float: left;
+  width: 75%;
+}
+
+.grid-aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.grid-main-item1,
+.grid-aside-item {
+  background-color: #e6e6e6;
+  padding: 20px;
+  margin-top: 20px;
+  height: auto;
+}
+
+.grid-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pic {
+  width: auto;
+  height: auto;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #e6e6e6;
+}
+
+/* styles for home page */
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pic-home {
+  width: 280px;
+  height: 200px;
+  margin: 50px;
+}
+
+.flex-container-main {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: #e6e6e6;
+  margin: 20px;
+  align-items: center;
+  align-content: space-around;
+}
