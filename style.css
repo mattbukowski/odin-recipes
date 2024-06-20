@@ -85,6 +85,7 @@ body {
   padding: 20px;
   text-align: center;
   background: #e6e6e6;
+  margin-top: 20px;
 }
 
 /* styles for home page */
@@ -114,7 +115,7 @@ body {
   flex-flow: column;
   justify-content: space-between;
   background-color: #e6e6e6;
-  margin: 20px;
+  margin: 20px 20px 0px 20px;
   align-items: center;
   align-content: space-around;
 }
